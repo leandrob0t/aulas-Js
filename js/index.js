@@ -11,3 +11,12 @@ var leo = "leandro";
 var LEO = 'LEANDRO';
 console.log(leo)
 console.log(LEO)
+
+//Declaração de variaveis
+var nome, sobreNome, nomeCompleto;
+//Atribuição de valores
+nome = "Leandro";
+sobreNome = "Botelho";
+nomeCompleto = nome +" "+ sobreNome;
+
+document.getElementById('texto').innerHTML= nomeCompleto;
