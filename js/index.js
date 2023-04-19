@@ -20,3 +20,10 @@ sobreNome = "Botelho";
 nomeCompleto = nome +" "+ sobreNome;
 
 document.getElementById('texto').innerHTML= nomeCompleto;
+
+// condicional ternário
+var idade, eleitor, resultado;
+idade = 65;
+eleitor = (idade < 18) ? "Não, eleitor" : "Sim, eleitor";
+resultado = (idade === 65 || idade ===72);
+alert (resultado);
